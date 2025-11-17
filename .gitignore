@@ -1,0 +1,8 @@
+﻿.venv/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+data/
+notebooks/.ipynb_checkpoints
+kaggle.json
