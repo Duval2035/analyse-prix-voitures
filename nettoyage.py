@@ -6,7 +6,6 @@ df = pd.read_csv("vehiculecomplet.csv", index_col=0)
 # Traitement spécifique pour chaque type de données
 for colonne in df.columns:
     print(f"Traitement de la colonne '{colonne}' - {df[colonne].dtype}")
-
     if colonne == "Prix":
         # Gestion spéciale pour la colonne Prix
         print(f" Gestion speciale pour la colonne Prix")
